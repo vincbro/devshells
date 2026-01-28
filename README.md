@@ -51,5 +51,15 @@ mkdev() {
 }  
 ```
 
+## Usage
 
+It's really simple and ergonomic to use the `mkdev` command.
 
+The `mkdev` command takes in an argument, this argument is the folder devshell that will be used. If none is specified the basic devshell will be used.
+
+```bash
+# Basic/Default devshell
+mkdev
+# Preset rust devshell
+mkdev rust
+```
