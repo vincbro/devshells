@@ -13,10 +13,14 @@
         description = "Rust development environment";
       };
 
-
       cpp = {
         path = ./cpp;
         description = "C++ development environment";
+      };
+
+      ts = {
+        path = ./ts;
+        description = "TypeScript development environment";
       };
     };
   };
